@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".GiveWorkActivity">
+
+    <TextView
+        android:id="@+id/textViewTypeOfWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of Work:"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTypeOfWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTypeOfWork"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewWages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wages:"
+        android:layout_below="@id/spinnerTypeOfWork"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextWages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWages"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/textViewNumberOfDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Days:"
+        android:layout_below="@id/editTextWages"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberOfDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNumberOfDays"
+        android:layout_marginTop="8dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location of Work:"
+        android:layout_below="@id/editTextNumberOfDays"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLocation"
+        android:layout_marginTop="8dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/editTextLocation"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
