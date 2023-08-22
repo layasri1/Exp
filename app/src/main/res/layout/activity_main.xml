@@ -5,21 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonNeedWork"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Need Work"
-        android:onClick="openNeedWorkPage"/>
+        android:text="Hello World"/>
 
     <Button
-        android:id="@+id/buttonGiveWork"
-        android:layout_width="372dp"
-        android:layout_height="180dp"
-        android:onClick="openGiveWorkPage"
-        android:text="Give Work" />
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:onClick="openNeedWorkPage"/>
+
 
 </LinearLayout>

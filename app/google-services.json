@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085304378033",
+    "project_id": "farm-lance",
+    "storage_bucket": "farm-lance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085304378033:android:7b9971e8c00ff6d9da4890",
+        "android_client_info": {
+          "package_name": "com.example.exp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085304378033-n73hrsfgi6vuatsq9meo9stj57aa94vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7irskrEjrrNKGG4l1yfs08wQz3FXu7Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085304378033-n73hrsfgi6vuatsq9meo9stj57aa94vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
